@@ -1,10 +1,12 @@
-const button = document.getElementById("btn");
+const buttons = document.querySelectorAll(".btn");
 const modal = document.getElementById("modal");
 const close = document.querySelector(".close");
 
 // Открыть окно
-button.addEventListener("click", function () {
-    modal.style.display = "flex";
+buttons.forEach(function(button){
+    button.addEventListener("click", function(){
+        modal.style.display = "flex";
+    });
 });
 
 // Закрыть по крестику
