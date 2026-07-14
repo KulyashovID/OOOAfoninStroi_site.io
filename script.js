@@ -1,7 +1,6 @@
 // =======================================
 // Получение элементов страницы
 // =======================================
-
 const buttons = document.querySelectorAll(".btn");
 const modal = document.getElementById("modal");
 const close = document.querySelector(".close");
@@ -25,7 +24,6 @@ buttons.forEach(function(button){
 // =======================================
 // Закрытие по крестику
 // =======================================
-
 close.addEventListener("click", function(){
     modal.style.display = "none";
 });
@@ -34,17 +32,16 @@ close.addEventListener("click", function(){
 // =======================================
 // Закрытие при клике вне окна
 // =======================================
-
 window.addEventListener("click", function(event){
     if(event.target === modal){
         modal.style.display = "none";
     }
 });
 
+
 // =======================================
 // Тексты для карточек
 // =======================================
-
 const cards = {
 
     1:{
@@ -79,5 +76,4 @@ const cards = {
         title:"Контакты",
         text:"Я же вчера сказал: «завтра»! Я не отказываюсь от своих слов. Завтра будет!"
     }
-
 };
