@@ -12,7 +12,7 @@ const close = document.querySelector(".close");
 buttons.forEach(function(button){
     button.addEventListener("click", function(){
         const cardNumber = button.dataset.card;
-        document.getElementById("modal-title").textContent =
+        document.getElementById("modal-title").innerHTML =
         cards[cardNumber].title;
         document.getElementById("modal-text").innerHTML =
         cards[cardNumber].text;
@@ -48,8 +48,8 @@ const cards = {
         title:`<br>
 — Ты открыл свой мк что я скинул?<br>
 — Ты скидывал мне мк?<br>
-— Раза 4-5<br>
-— Ого! у меня сделанный мк`,
+— Раза 4-5...<br>
+— Ого! у меня сделанный мк!`,
         text:`<br>
 — Может по шаве?<br>
 — У меня больной желудок, но пойдём!`
