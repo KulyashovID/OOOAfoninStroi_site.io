@@ -96,8 +96,10 @@ button{
 
 /* Настройки изображения */
 .content-image img{
-    width:100%;
-    max-width:350px;
+    width:70%;
+    max-width:220px;
+    min-width:140px;
+    height:auto;
     border-radius:12px;
 }
 
