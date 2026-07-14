@@ -184,6 +184,20 @@ footer{
         gap:25px;
     }
 
+    /* Шапка сайта */
+    header{
+        padding:40px 20px;
+        text-align:center;
+    }
+    header h1{
+        font-size:32px;
+    }
+    header p{
+        margin-top:12px;
+        font-size:16px;
+        line-height:1.5;
+    }
+
     /* Заголовок */
     .content-text h2{
         margin-bottom:15px;
