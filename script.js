@@ -10,9 +10,13 @@ const close = document.querySelector(".close");
 // =======================================
 // Открытие модального окна
 // =======================================
-
 buttons.forEach(function(button){
     button.addEventListener("click", function(){
+        const cardNumber = button.dataset.card;
+        document.getElementById("modal-title").textContent =
+        cards[cardNumber].title;
+        document.getElementById("modal-text").textContent =
+        cards[cardNumber].text;
         modal.style.display = "flex";
     });
 });
