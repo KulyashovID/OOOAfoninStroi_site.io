@@ -55,3 +55,15 @@ button{
     font-size:16px;
     transition:.3s;
 }
+
+
+
+/* Подошва */
+footer{
+    margin-top:80px;
+    background:#1d3557;
+    color:white;
+    text-align:center;
+    padding:30px;
+    font-size:15px;
+}
